@@ -1,11 +1,11 @@
 //your code here
-let count;
+let str;
 document.getElementById("evaluatedText").value = ""; // initially string is empty so count is also empty
 
 document.addEventListener("keyup", function () {
-  count = document.getElementById("evaluatedText").value; //here this value will return string
-  document.querySelector("#letterCount").textContent = count.length;
-  //   console.log(count);
+  str = document.getElementById("evaluatedText").value; //here this value will return string
+  document.querySelector("#wordCount").textContent = str.length;
+    // console.log(str);
 });
 
 // function handle() {
