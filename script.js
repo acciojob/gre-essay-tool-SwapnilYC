@@ -7,8 +7,8 @@ document.addEventListener("keyup", function () {
 	// consostr.split(' ').length;
 		 // str = str.replace(/(^\s*)|(\s*$)/gi,"");  // Exclude the start and end spaces of a string
    //       str = str.replace(/[ ]{2,}/gi," "); // reduce multiple spaces to a single space.
- const x = str.split(' ')
-	x.filter(it => it);
+ let x = str.split(' ')
+	x= x.filter(item => item);
 	console.log(x)
 	document.querySelector("#wordCount").textContent = x.length;
 	
